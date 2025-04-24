@@ -21,7 +21,7 @@
     ![Logo](image/color.png)
 
 - **Colors:**
-  - **Primary color**: #0d6efd (Bootstrap Blue) – used for branding and background elements.
+  - **Primary color**: #d62828 (Deep Red) – used for branding and background elements.
   - **Accent colors**: Yellow and white – used to highlight CTAs and maintain visual balance.
   - Text is contrasted against backgrounds for high readability and accessibility.
 
@@ -30,13 +30,11 @@
 - Customized Bootstrap SCSS variables to:
   - Change the default primary color to match the brand identity.
   - Adjust spacing, padding, and typography settings.
-  - Override default button and card styles for a more modern, branded look.
+  - Custom form layout (multi-column)
 - Used `@import` to extend Bootstrap components and maintain modularity.
 
 ## 🚀 Live Demo
 
 🌐 [View Live Website](https://your-live-demo-link.com)
 
----
 
-> Designed and developed with 💛 by [Your Name]
