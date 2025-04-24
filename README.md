@@ -6,7 +6,9 @@
 
 ## 🎨 Design Choices
 
-![Logo](image/Landing page.png)
+![Logo](image/Landing%20page.png)
+![Logo](image/About.png)
+![Logo](image/Contact%20page.png)
 
 - **Wireframe & Layout:**
   - Designed in **Figma** for layout planning and responsiveness.
@@ -15,6 +17,8 @@
 ![Logo](image/logo.png)
 - **Logo:**
   - The logo was custom-designed using **Photoshop** to align with the brand’s youthful and fashionable tone.
+
+    ![Logo](image/color.png)
 
 - **Colors:**
   - **Primary color**: #0d6efd (Bootstrap Blue) – used for branding and background elements.
