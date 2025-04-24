@@ -8,7 +8,7 @@
 
 ![Logo](image/Landing%20page.png)
 ![Logo](image/About.png)
-![Logo](image/Contact%20page.png)
+![Logo](image/contact%20page.png)
 
 - **Wireframe & Layout:**
   - Designed in **Figma** for layout planning and responsiveness.
