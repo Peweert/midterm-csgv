@@ -1,0 +1,22 @@
+// 1. Override Bootstrap variable before import
+$primary: #d62828;
+
+// 2. Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// 3. Custom button style
+.btn-custom {
+  background-color: $primary;
+  color: #fff;
+  &:hover {
+    font-weight: bold;
+    background-color: darken($primary, 5%);
+  }
+}
+
+// 4. Custom form layout (multi-column)
+.form-multi-column {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}

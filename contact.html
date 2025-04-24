@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <div id="header-placeholder"></div>
+  <body class="bg-primary align-items-center">
+    <div id="nav-placeholder"></div>
+    <main class="container mt-5">
+      <section
+        class="d-flex justify-content-center text-black pt-5"
+        style="height: 60vh"
+      >
+        <div class="text-center">
+          <h1 class="display-5 fw-bold">Customer Support</h1>
+          <div class="text-start">
+            <h2 class="text-white">Email: support@trendywear.com</h2>
+            <h2 class="text-white">Phone: +1 (123) 456-7890</h2>
+            <h2 class="text-white">Hours: Mon-Fri, 9 AM - 6 PM (EST)</h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5" style="background-color: #d32f2f">
+        <div class="container text-center text-black">
+          <h2 class="mb-4">
+            Fill out the form below, and we’ll get back to you as soon as
+            possible.
+          </h2>
+          <div
+            class="bg-white p-5 rounded shadow mx-auto"
+            style="max-width: 800px"
+          >
+            <form>
+              <div class="row g-3">
+                <!-- First Name -->
+                <div class="col-md-6">
+                  <label for="firstName" class="form-label">First Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="firstName"
+                    placeholder="John"
+                  />
+                </div>
+
+                <!-- Last Name -->
+                <div class="col-md-6">
+                  <label for="lastName" class="form-label">Last Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    placeholder="Doe"
+                  />
+                </div>
+
+                <!-- Email -->
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="you@example.com"
+                  />
+                </div>
+
+                <!-- Phone -->
+                <div class="col-md-6">
+                  <label for="phone" class="form-label">Phone</label>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    placeholder="+1 234 567 8900"
+                  />
+                </div>
+
+                <!-- Message -->
+                <div class="col-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="4"
+                    placeholder="Your message..."
+                  ></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="col-12">
+                  <button type="submit" class="btn btn-dark w-100 rounded-pill">
+                    ✓ Submit
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- Live Chat Section -->
+          <div class="mt-4">
+            <div
+              class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mt-5"
+            >
+              <div>
+                <h5 class="fw-bold text-white mb-1">Need Quick Help?</h5>
+                <p class="text-white-50 mb-0 fst-italic">
+                  Click the chat button to speak with a representative.
+                </p>
+              </div>
+              <div class="d-flex align-items-center ms-md-3">
+                <button
+                  class="btn btn-light rounded-circle shadow"
+                  style="width: 50px; height: 50px"
+                >
+                  <i class="bi bi-chat-dots fs-4"></i>
+                </button>
+                <span class="ms-2 text-white fw-bold">LIVE CHAT</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- gmaps embed -->
+      <section id="location" class="py-5 text-center text-black">
+        <div class="container">
+          <h2 class="mb-3">Our Location</h2>
+          <p class="mb-4">Find us here:</p>
+          <div class="ratio ratio-16x9 rounded shadow">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330041.347039979!2d134.7550597139975!3d35.405411586091226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2sTokyo%2C%20Japan!5e0!3m2!1sen!2sph!4v1745504055967!5m2!1sen!2sph"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
