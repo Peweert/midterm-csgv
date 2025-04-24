@@ -1,4 +1,4 @@
-# TrendyWeaR - Fashion E-Commerce Website
+# TrendyWeaR - E-Commerce Store Website
 
 ## 📝 Project Summary
 
