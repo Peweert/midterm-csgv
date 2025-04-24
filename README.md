@@ -6,10 +6,13 @@
 
 ## 🎨 Design Choices
 
+![Logo](image/Landing page.png)
+
 - **Wireframe & Layout:**
   - Designed in **Figma** for layout planning and responsiveness.
   - Structure follows a classic split layout (text & image) with full-width sections and mobile-first design principles.
-
+    
+![Logo](image/logo.png)
 - **Logo:**
   - The logo was custom-designed using **Photoshop** to align with the brand’s youthful and fashionable tone.
 
